@@ -1,0 +1,198 @@
+{
+  "pareto-optimization": {
+    "name": "Pareto Agentic Optimization",
+    "status": "implementation",
+    "qualityScore": "88",
+    "activeAgents": [
+      "switch",
+      "quality"
+    ],
+    "created": "2026-04-18T23:00:00Z",
+    "lastUpdated": "2026-04-27T21:16:19Z",
+    "lastGate": "review",
+    "lastGateTime": "2026-04-27T21:27:24Z",
+    "gates": [
+      {
+        "milestone": "planning",
+        "score": 92,
+        "threshold": 60,
+        "passed": true,
+        "time": "2026-04-18T23:30:00Z"
+      },
+      {
+        "milestone": "review",
+        "score": 88,
+        "threshold": 85,
+        "passed": true,
+        "time": "2026-04-27T21:27:24Z"
+      }
+    ],
+    "phases": {
+      "1-quality-gates": {
+        "status": "active",
+        "progress": 15
+      },
+      "2-batch-processing": {
+        "status": "pending",
+        "progress": 0
+      },
+      "3-context-store": {
+        "status": "pending",
+        "progress": 0
+      },
+      "4-smart-router": {
+        "status": "pending",
+        "progress": 0
+      },
+      "5-auto-monitoring": {
+        "status": "pending",
+        "progress": 0
+      }
+    },
+    "context": "Architecture designed. Phase 1 (Quality Gates) script built and tested. Tools installed: jq, parallel, fswatch.",
+    "nextSteps": [
+      "Wire quality-gate.sh to real quality scores",
+      "Create batch-processor.sh",
+      "Create context-store.sh"
+    ]
+  },
+  "pipeline-mvp": {
+    "name": "Agentic AI Project Pipeline MVP",
+    "status": "planning-complete",
+    "qualityScore": 92,
+    "activeAgents": [
+      "switch",
+      "quality",
+      "content"
+    ],
+    "created": "2026-04-19T19:54:00Z",
+    "lastUpdated": "2026-04-21T12:00:00Z",
+    "lastGate": "complete",
+    "lastGateTime": "2026-04-21T12:00:00Z",
+    "gates": [
+      {
+        "milestone": "planning",
+        "score": 90,
+        "threshold": 60,
+        "passed": true,
+        "time": "2026-04-19T20:30:00Z"
+      },
+      {
+        "milestone": "review",
+        "score": 88,
+        "threshold": 75,
+        "passed": true,
+        "time": "2026-04-20T14:00:00Z"
+      },
+      {
+        "milestone": "complete",
+        "score": 92,
+        "threshold": 85,
+        "passed": true,
+        "time": "2026-04-21T12:00:00Z"
+      }
+    ],
+    "phases": {
+      "1-planning": {
+        "status": "complete",
+        "progress": 100
+      },
+      "2-implementation": {
+        "status": "complete",
+        "progress": 100
+      },
+      "3-testing": {
+        "status": "complete",
+        "progress": 100
+      },
+      "4-release": {
+        "status": "complete",
+        "progress": 100
+      }
+    },
+    "context": "All 12 tasks + 12 quality gates documented. Execution validation flagged by @quality (2.5/10 authenticity). Needs re-validation run.",
+    "nextSteps": [
+      "Re-validate execution artifacts",
+      "Re-run pipeline end-to-end",
+      "Update quality score after validation"
+    ]
+  },
+  "kiwi-monitor": {
+    "name": "Kiwi Monitor — Product Oversight System",
+    "status": "setup",
+    "qualityScore": 85,
+    "activeAgents": [
+      "switch"
+    ],
+    "created": "2026-04-27T12:56:00Z",
+    "lastUpdated": "2026-04-27T20:45:00Z",
+    "lastGate": "review",
+    "lastGateTime": "2026-04-27T20:45:00Z",
+    "gates": [
+      {
+        "milestone": "start",
+        "score": 85,
+        "threshold": 60,
+        "passed": true,
+        "time": "2026-04-27T12:56:00Z"
+      }
+    ],
+    "phases": {
+      "1-setup": {
+        "status": "complete",
+        "progress": 100
+      },
+      "2-onboarding": {
+        "status": "active",
+        "progress": 40
+      },
+      "3-diagnostics": {
+        "status": "pending",
+        "progress": 0
+      },
+      "4-oversight": {
+        "status": "pending",
+        "progress": 0
+      }
+    },
+    "context": "12 onboarding files provisioned. Quantum Diagnostic Framework created. Capabilities inventory documented with 12 gaps.",
+    "nextSteps": [
+      "Complete Kiwi 2.6 onboarding checklist",
+      "Run first product health scan",
+      "Roll gaps through Product Manager"
+    ]
+  },
+  "little-sprout-kitchen": {
+    "name": "Little Sprout Kitchen",
+    "status": "concept",
+    "qualityScore": 80,
+    "activeAgents": [],
+    "created": "2026-04-25T00:00:00Z",
+    "lastUpdated": "2026-04-25T00:00:00Z",
+    "lastGate": "start",
+    "lastGateTime": "2026-04-25T00:00:00Z",
+    "gates": [
+      {
+        "milestone": "start",
+        "score": 80,
+        "threshold": 60,
+        "passed": true,
+        "time": "2026-04-25T00:00:00Z"
+      }
+    ],
+    "phases": {
+      "1-concept": {
+        "status": "complete",
+        "progress": 100
+      },
+      "2-planning": {
+        "status": "pending",
+        "progress": 0
+      }
+    },
+    "context": "Restaurant brand concept with full menu. Creative project, not a system capability build.",
+    "nextSteps": [
+      "Awaiting direction — likely creative/portfolio use"
+    ]
+  }
+}
