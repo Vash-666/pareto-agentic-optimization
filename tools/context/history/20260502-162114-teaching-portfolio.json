@@ -197,46 +197,12 @@
   },
   "teaching-portfolio": {
     "name": "Teaching Portfolio Framework",
-    "lastUpdated": "2026-05-02T20:21:22Z",
+    "lastUpdated": "2026-05-02T20:21:14Z",
     "status": "implementation",
-    "qualityScore": "87",
+    "qualityScore": "79",
     "activeAgents": "[\"switch\",\"quality\",\"content\",\"grok\",\"product\",\"scaffolder\"]",
     "created": "2026-05-02T20:21:14Z",
     "quality-target": "85/100",
-    "audience": "recruiters + technical professionals",
-    "format": "short-form video + markdown",
-    "lastGate": "complete",
-    "lastGateTime": "2026-05-02T20:37:29Z",
-    "gates": [
-      {
-        "milestone": "start",
-        "score": 79,
-        "threshold": 60,
-        "passed": true,
-        "time": "2026-05-02T20:21:17Z"
-      },
-      {
-        "milestone": "review",
-        "score": 79,
-        "threshold": 75,
-        "passed": true,
-        "time": "2026-05-02T20:21:19Z"
-      },
-      {
-        "milestone": "complete",
-        "score": 87,
-        "threshold": 85,
-        "passed": true,
-        "time": "2026-05-02T20:37:22Z"
-      },
-      {
-        "milestone": "complete",
-        "score": 87,
-        "threshold": 85,
-        "passed": true,
-        "time": "2026-05-02T20:37:29Z"
-      }
-    ],
-    "nextSteps": "[\"Publish to GitHub\",\"Create video scripts\",\"Share with community\"]"
+    "audience": "recruiters + technical professionals"
   }
 }

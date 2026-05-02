@@ -205,8 +205,8 @@
     "quality-target": "85/100",
     "audience": "recruiters + technical professionals",
     "format": "short-form video + markdown",
-    "lastGate": "complete",
-    "lastGateTime": "2026-05-02T20:37:29Z",
+    "lastGate": "review",
+    "lastGateTime": "2026-05-02T20:21:19Z",
     "gates": [
       {
         "milestone": "start",
@@ -221,22 +221,7 @@
         "threshold": 75,
         "passed": true,
         "time": "2026-05-02T20:21:19Z"
-      },
-      {
-        "milestone": "complete",
-        "score": 87,
-        "threshold": 85,
-        "passed": true,
-        "time": "2026-05-02T20:37:22Z"
-      },
-      {
-        "milestone": "complete",
-        "score": 87,
-        "threshold": 85,
-        "passed": true,
-        "time": "2026-05-02T20:37:29Z"
       }
-    ],
-    "nextSteps": "[\"Publish to GitHub\",\"Create video scripts\",\"Share with community\"]"
+    ]
   }
 }

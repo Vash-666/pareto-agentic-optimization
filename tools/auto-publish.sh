@@ -43,7 +43,7 @@ publish_project() {
     # Copy charter/readme if they exist
     for charter_file in "00-PROJECT-CHARTER.md" "01-TASK-BREAKDOWN.md" "02-AGENT-ASSIGNMENTS.md" "README.md" "PROJECT-SUMMARY.md"; do
         if [ -f "${project_dir}/${charter_file}" ]; then
-            cp "${project_dir}/${charter_file}" "${artifact_DIR}/${charter_file}" 2>/dev/null || true
+            cp "${project_dir}/${charter_file}" "${artifact_dir}/${charter_file}" 2>/dev/null || true
         fi
     done
 
@@ -69,6 +69,7 @@ if [ "$1" = "all" ]; then
     if [ -d "${PROJECTS_DIR}/kiwi-monitor" ]; then
         publish_project "kiwi-monitor" "${PROJECTS_DIR}/kiwi-monitor"
     fi
+    publish_project "teaching-portfolio" "${PROJECTS_DIR}/teaching-portfolio"
 else
     case "$1" in
         pipeline-mvp)
@@ -80,9 +81,12 @@ else
         kiwi-monitor)
             publish_project "kiwi-monitor" "${PROJECTS_DIR}/kiwi-monitor"
             ;;
+        teaching-portfolio)
+            publish_project "teaching-portfolio" "${PROJECTS_DIR}/teaching-portfolio"
+            ;;
         *)
             echo "Unknown project: $1"
-            echo "Usage: $0 [pipeline-mvp|pareto-optimization|kiwi-monitor|all]"
+            echo "Usage: $0 [pipeline-mvp|pareto-optimization|kiwi-monitor|teaching-portfolio|all]"
             exit 1
             ;;
     esac
